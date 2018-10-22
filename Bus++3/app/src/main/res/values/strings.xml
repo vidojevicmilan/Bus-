@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BusPlusPlus</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_omiljene">Omiljene</string>
+    <string name="title_activity_istorija">Istorija</string>
+    <string name="title_activity_ab">AB</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="title_activity_red_voznje">RedVoznje</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="info">Bus++ aplikacija je razvijena od strane tima //no comment,
+        i predstavlja aplikaciju koja pruža informacije korisnicima o gradskom prevozu.
+        Bus++ je aplikacija namenjena korisnicima koji koriste gradski prevoz.</string>
+    <string name="razvojni_tim">Razvojni tim:\nMilan Vidojevic\nRodoljub Babic\nAndjelija Pejovic\nNemanja Zikic </string>
+</resources>

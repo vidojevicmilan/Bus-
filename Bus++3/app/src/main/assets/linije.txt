@@ -1,0 +1,14 @@
+Minovo Naselje - Niska Banja
+Niska Banja - Minovo Naselje
+Bubanj - Donja Vrezina
+Donji Komren - Njegoseva
+Njegoseva - Donji Komren
+Donja Vrezina - Bubanj
+Zeleznicka stanica - Somborska
+Somborska - Zeleznicka stanica
+Mokranjceva - Medosevac
+Medosevac - Mokranjceva
+Zeleznicka stanica - Duvaniste
+Duvaniste - Zeleznicka stanica
+Kruzna linija - smer A
+Kruzna linija - smer B

@@ -1,0 +1,177 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pozadina"
+    android:scaleType = "centerCrop">
+
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="150px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="0"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/istorijabutton"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:src="@drawable/istorijaup"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|bottom" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/omiljenebutton"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:src="@drawable/omiljeneup"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|bottom"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/linijebutton"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:src="@drawable/linijeup"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|bottom"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/abbutton"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:src="@drawable/abup"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|bottom"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/kontaktbutton"
+                android:layout_row="0"
+                android:layout_column="5"
+                android:src="@drawable/kontaktdown"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:layout_gravity="left|bottom"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bus++"
+
+        android:id="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/info"
+        android:id="@+id/textView2"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/razvojni_tim"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:text="Pošalji e-mail"
+        android:id="@+id/emailbutton"
+        android:onClick="setupEmailButton"
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+</RelativeLayout>
+
+

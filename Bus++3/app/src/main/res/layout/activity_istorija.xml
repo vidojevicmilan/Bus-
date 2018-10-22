@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pozadina"
+    android:scaleType = "centerCrop">
+
+    <ListView
+        android:id="@+id/istorijalist"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:cacheColorHint="@color/primary"
+        android:layout_weight="1.01" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="150px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/istorijabutton"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/istorijadown"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|bottom" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/omiljenebutton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/omiljeneup"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|bottom"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/linijebutton"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:src="@drawable/linijeup"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|bottom"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/abbutton"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:src="@drawable/abup"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|bottom"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/kontaktbutton"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:src="@drawable/kontaktup"
+            android:layout_margin="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:clickable="true"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|bottom"/>
+    </LinearLayout>
+
+</LinearLayout>
